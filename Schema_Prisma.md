@@ -28,6 +28,7 @@ corrections:
 .Prisma Data-types start with a capital letter:
 . uniquley (no) unique(yes).
 . The model pattern is name DataType @attribute
+. The Skip + take in sql query offset + limit and also in query offset and limit won't use the $1, $2
 
 model Project{
 id INT @id @default(aut())
